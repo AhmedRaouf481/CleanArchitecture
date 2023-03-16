@@ -1,0 +1,1 @@
+{"version":3,"file":"token_handler.js","sourceRoot":"","sources":["../../../draft_src/services/token_handler.ts"],"names":[],"mappings":";;;;;;AAAA,gEAA+B;AAExB,MAAM,WAAW,GAAG,CAAC,OAAwB,EAAE,EAAE;IACtD,MAAM,KAAK,GAAG,sBAAG,CAAC,IAAI,CAAC,OAAO,EAAE,OAAO,CAAC,GAAG,CAAC,UAAoB,CAAC,CAAC;IAClE,OAAO,KAAK,CAAC;AACf,CAAC,CAAC;AAHW,QAAA,WAAW,eAGtB"}
