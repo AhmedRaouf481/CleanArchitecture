@@ -1,13 +1,11 @@
-import { userDbInterface } from "../../data/interfaces/userDbInterface";
+import { DbInterface } from "../../data/interfaces/userDbInterface";
 import { AuthUserResponseModel, UserModel, UserRequestModel, UserResponseModel } from "../interfaces/userModel";
 import UserServices from "../services/UserServices";
 
 
 export class UserUseCases {
     private services: UserServices
-    private db: userDbInterface
-    constructor(db: userDbInterface) {
-        this.db = db
+    constructor(private db: DbInterface<UserModel, UserResponseModel>) {
         this.services = new UserServices()
     }
 

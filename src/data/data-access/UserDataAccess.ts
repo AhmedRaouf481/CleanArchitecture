@@ -1,9 +1,9 @@
-import { userDbInterface } from "../interfaces/userDbInterface";
+import { DbInterface } from "../interfaces/userDbInterface";
 import { UserModel, UserResponseModel } from "../../domain/interfaces/userModel";
 import { PrismaClient } from "@prisma/client";
 
 
-export class UserDataAccess implements userDbInterface {
+export class UserDataAccess implements DbInterface<UserModel, UserResponseModel> {
     private db: PrismaClient;
     constructor() {
         this.db = new PrismaClient();
