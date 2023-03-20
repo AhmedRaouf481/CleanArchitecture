@@ -76,8 +76,8 @@ Let's use files and folders to structure our application. Doing this allows us t
         └── UserDataAccess.ts
 ```
 
-The presentation layer would mainly be used for inputting and outputting user data (API routes).
+- The presentation layer would mainly be used for inputting and outputting user data (API routes).
 
-The inner core domain layer holds all business logic (use cases, services).
+- The inner core domain layer holds all business logic (use cases, services).
 
-The data layer holds all infrastructure implementations (data sources).
+- The data layer holds all infrastructure implementations (data sources).
